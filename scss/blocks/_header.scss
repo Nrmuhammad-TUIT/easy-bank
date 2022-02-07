@@ -80,4 +80,40 @@ header {
       transition: width 3s ease;
       opacity: 0.5;
    }
+
+}
+
+.header-hero__hamburg-btn {
+   padding-top: 50px;
+   display: none;
+   font-size: 25px;
+   background-color: transparent;
+   border: none;
+}
+
+@media only screen and (max-width:540px) {
+   .header-hero__list {
+      display: none;
+   }
+
+   .header-hero__link {
+      display: none;
+   }
+
+   .header-hero__hamburg-btn {
+      display: block;
+      padding-top: 0;
+   }
+
+}
+
+@media only screen and (max-width:426px) {
+   .header-hero__list {
+      display: none;
+   }
+
+   .header-hero__hamburg-btn {
+      display: block;
+   }
+
 }

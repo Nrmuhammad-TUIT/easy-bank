@@ -414,6 +414,7 @@ img {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 20px;
+  overflow-x: hidden;
 }
 
 header {
@@ -499,6 +500,36 @@ header {
   -webkit-transition: width 3s ease;
   transition: width 3s ease;
   opacity: 0.5;
+}
+
+.header-hero__hamburg-btn {
+  padding-top: 50px;
+  display: none;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+}
+
+@media only screen and (max-width: 540px) {
+  .header-hero__list {
+    display: none;
+  }
+  .header-hero__link {
+    display: none;
+  }
+  .header-hero__hamburg-btn {
+    display: block;
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .header-hero__list {
+    display: none;
+  }
+  .header-hero__hamburg-btn {
+    display: block;
+  }
 }
 
 .generation-section {
@@ -903,6 +934,8 @@ header {
   position: relative;
   max-width: 255px;
   list-style: none;
+  background-color: #ffffff;
+  border: 0px solid black;
 }
 
 .articles__item::before {
