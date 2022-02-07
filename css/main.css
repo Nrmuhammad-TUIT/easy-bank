@@ -1003,6 +1003,9 @@ header {
 }
 
 @media only screen and (max-width: 426px) {
+  .articles {
+    padding-top: 20px;
+  }
   .articles__title {
     text-align: center;
     margin-bottom: 256px;
