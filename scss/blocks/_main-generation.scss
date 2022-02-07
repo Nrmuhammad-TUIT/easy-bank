@@ -1,0 +1,171 @@
+
+.generation-section {
+   position: relative;
+   padding-top: 300px;
+}
+
+.generation-section__image {
+   position: absolute;
+   width: 1233px;
+   height: 649px;
+   top: 20px;
+   right: -370px;
+}
+
+.generation-section__phone-image {
+   position: absolute;
+   width: 728px;
+   height: 899px;
+   top: -20px;
+   right: -40px;
+}
+.generation {
+   margin-bottom: 170px;
+   max-width: 447px;
+}
+
+.generation__title {
+   margin-top: 0;
+   margin-bottom: 24px;
+   font-family: "Publicsans";
+   font-weight: 500;
+   font-size: 56px;
+   line-height: 64px;
+   color: #2D314D;
+}
+
+.generation__text {
+   margin-top: 0;
+   margin-bottom: 36px;
+   font-family: "Publicsans";
+   font-size: 18px; 
+   line-height: 28px;
+   color: #9597A5;
+}
+
+.generation__link {
+   display: block;
+   padding: 8px 36px;
+   background-image: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+   border-radius: 22px;
+   width: 163px;
+   height: 44px;
+   text-decoration: none;
+   font-size:  14px;
+   line-height:  28px;
+   color: #FFFFFF;
+
+
+   &:hover {
+      opacity: 0.5;
+   }
+
+}
+
+
+
+
+
+@media only screen and (max-width:426px) {
+   .header-hero__list {
+      display: none;
+   }
+
+   .header-hero__link {
+      display: none;
+   }
+
+   .generation-section__image {
+      width: 754px;
+      height: 397px;
+      top: -115px;
+      left: 50px;
+   }
+
+   .generation-section__phone-image {
+      width: 327px;
+      height: 402px;
+      top: -45px;
+      left: 70px;
+   }
+
+   .generation {
+      margin-right: auto;
+      margin-bottom: 120px;
+      margin-left: auto;
+      max-width: 420px;
+      padding-top: 100px;
+   }
+
+   .generation__title {
+      margin-top: 0;
+      margin-bottom: 24px;
+      text-align: center;
+      font-family: "Public Sans" , "Arial" , sans-serif;
+      font-weight: 100;
+      font-size: 50px;
+      line-height: 60px;
+      color: #2D314D;
+   }
+
+   .generation__text {
+      font-family: "Public Sans" , "Arial" , sans-serif;
+      font-size: 15px; 
+      line-height: 25px;
+      text-align: center;
+   }
+
+   .generation__link {
+      display: block;
+      text-align: center;
+      margin-right: auto;
+      margin-left: auto;
+
+   }
+
+   
+}
+
+@media only screen and (max-width:376px) {
+
+   .generation {
+      max-width: 350px;
+   }
+
+   .generation__title {
+      margin-top: 0;
+      margin-bottom: 24px;
+      font-family: "Public Sans" , "Arial" , sans-serif;
+      font-weight: 100;
+      text-align: center;
+      font-size: 40px;
+      line-height: 47px;
+      color: #2D314D;
+   }
+
+   .choose-hero__text {
+      text-align: center;
+   }
+
+}
+
+
+@media only screen and (max-width:321px) {
+      .generation {
+         max-width: 315px;
+      }
+
+      .generation__title {
+         font-size: 36px;
+         line-height: 37px;
+         text-align: center;
+      }
+
+      .generation__text {
+         text-align: center;
+         font-family: "Public Sans" , "Arial" , sans-serif;
+         font-size: 14px; 
+         line-height: 26px;
+      }
+
+}
